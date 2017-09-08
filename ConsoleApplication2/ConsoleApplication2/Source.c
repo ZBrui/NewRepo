@@ -36,7 +36,6 @@ char strack_out(stackptr *ptr)
 
 	memcpy(pdata, (*ptr)->data, (*ptr)->size - 1);
 	(*ptr)->data = pdata;*/
-
 	free((*ptr)->data);
 	return Data;
 }
